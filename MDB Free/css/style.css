@@ -11,7 +11,7 @@ header,
     background-size: cover;
 }
 
-extrapadding{
-    padding-left:10px;
-    padding-right:10px;
+p.extrapadding{
+    padding-left:20px;
+    padding-right:20px;
 }
