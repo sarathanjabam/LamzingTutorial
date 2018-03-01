@@ -1,0 +1,31 @@
+/* Your custom styles */
+.custom_center{
+margin-left:auto;
+margin-right:auto;
+}
+.backG{
+    background-color: white;
+  
+}
+.font_color{
+    color:black;
+}
+.custom_margin{
+    margin-top:50px;
+}
+.custom_margin2{
+    margin-top:30px;
+}
+.bg-grey{
+    background-color: #f8f8f8;
+}
+bg-white{
+ background-color: white;
+}
+body{
+background-color:#f0f0f0;
+}
+
+.custom-padding{
+padding:10px;
+}
