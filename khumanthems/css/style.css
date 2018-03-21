@@ -11,10 +11,10 @@ margin-right:auto;
     color:black;
 }
 .custom_margin{
-    margin-top:50px;
+    margin-top: 60px;
 }
 .custom_margin2{
-    margin-top:30px;
+    margin-top: 30px;
 }
 .bg-grey{
     background-color: #f8f8f8;
@@ -26,6 +26,115 @@ body{
 background-color:#f0f0f0;
 }
 
-.custom-padding{
+.custom_padding{
 padding:10px;
 }
+
+.display-5 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+.display-6 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+.custom_text
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+
+.image_container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i:hover
+{
+    font-size:4.2em;
+}
+
+.size_4{
+    font-size: 4em;
+}
+
+
+.container_cus {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image_cus {
+    
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay_cus {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(153, 224, 248);
+  }
+  
+  .container_cus:hover .overlay_cus {
+    opacity: 1;
+  }
+  
+  .text_cus {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container_cus:hover .middle {
+    opacity: 1;
+  }
+  .container_cus:hover .image_cus {
+    opacity: 0.3;
+  }
+
+  .text_cus2 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
